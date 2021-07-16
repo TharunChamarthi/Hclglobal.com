@@ -1,0 +1,717 @@
+.log{
+
+    width:25%;
+    height: 85%;
+  }
+  .log img{
+    width: 60%;
+    height: 80%;
+   padding: 10px 20px;
+    transition: 1s;
+  
+  }
+  .log img:hover{
+    transform: scale(1.1, 1.1);
+    z-index: 2;
+  
+  }
+  body {
+      width: 100%;
+   margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .leftCont{
+      width: 100%;
+      height: 500px;
+  }
+  .leftCont img{
+      width: 100%;
+      height: 100%;
+  }
+ 
+  .cont{
+      
+      width: 98%;
+        position: absolute;
+      top: 250px;
+      left: 100px;
+      text-align: center;
+     
+  }
+  .cont p{
+      width: 85%;
+       line-height: 35px;
+       background: #212546;
+       color: white;
+       padding: 30px;
+       border-radius: 50px;
+       box-shadow: 2px 6px 4px 2px #5a7686;
+
+  }
+  
+  .contlist{
+      width: 80%;
+      height:100%;
+      margin:  0 auto;
+      margin-top: 210px;
+      
+      
+  }
+  .contlist h2{
+     
+      text-align: center;
+      color: red;
+      line-height: 1cm;
+  }
+  .head{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #012663;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  /* navbar styles */
+ 
+  nav{
+  
+    width: 100%;
+    top: 0;
+    height: 70px;
+    z-index: 2;
+      display: flex;
+     
+      background-color: rgba(203, 222, 228, 0.959);
+      justify-content: space-evenly;
+  }
+  .navlist{
+      width: 70%;
+      
+      display: flex;
+     justify-content:space-around;
+     align-items: center;
+  }
+  .navlist a{
+      text-decoration: none;
+      color: black;
+    
+   
+      
+     
+      
+      padding: 5px;  
+      font-size: 1.3pc;
+      transition: 0.3s;
+    }
+    
+  .navlist a:hover{
+    color: red;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid red;
+   
+    transform: scaleZ(1.1);
+  }
+     
+  .searchbar i{
+      font-size: 20px;
+       padding: 25px 20px;
+       color: black;
+      margin-right: 20px;
+      transition: 0.3s;
+  }
+  .searchbar i:hover{
+    color: red;
+    text-shadow: 2px 2px #632929;
+    transform: scaleZ(1.1);
+  }
+  
+       
+  /* tab design */
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 600px;
+ 
+    
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    
+    border: none;
+    display: block;
+    background-color: inherit;
+    color: black;
+    font-size:40em;
+    font-weight: bold;
+    padding: 42px 20px;
+    width: 100%;
+    
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: rgba(107, 178, 245, 0.856);
+    
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 100px 12px;
+    
+
+    background-color: rgba(107, 178, 245, 0.856);
+    width: 67.5%;
+    border-left: none;
+    height: 402px;
+  }
+  .tabcontent h3{
+      text-align: center;
+  }
+  .tabcontent p{
+      line-height: 1cm;
+      text-align: center;
+  }
+  #active{
+    color: red;
+  }
+  .tabcontent2 {
+    float: left;
+    padding: 250px 12px;
+    border: 1px solid #ccc;
+    background-color: rgba(107, 178, 245, 0.856);
+    width: 67.5%;
+    border-left: none;
+    height: 144px;
+  }
+  .tabcontent2 h3{
+      text-align: center;
+  }
+  .tabcontent2 p{
+      line-height: 1cm;
+      text-align: center;
+  }
+  .mainBanner{
+    width:100%;
+    height: 360px;
+    position: relative;
+    top: 20px;
+  }
+  .mainBanner img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   
+  }
+  .opac{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 0;
+  }
+  .banner{
+    width:100%;
+    position: relative;
+    z-index: 1;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    
+    
+ 
+   
+    
+  
+    
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.199);
+ }
+  
+  .banner h4{
+    margin-bottom: 35px;
+    width: 67%;
+    height: 55px;
+    
+    border-radius: 8px;
+    color: white;
+    font-size: 2cm;
+    font-weight: normal;
+    text-align: center;
+
+
+  }
+ 
+ 
+  .banner h5{
+    
+    width: 30%;
+    height: 50px;
+    color: white;
+    margin: 0;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+  }
+  header{
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+  .headLeft{
+    
+    width: 42%;
+    height: 96%;
+    color: white;
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  .headLeft i{
+    
+    padding: 8px;
+    border-radius: 20px;
+    background-color: rgba(245, 114, 7, 0.932);
+  }
+.phone,.mail{
+  
+  margin-left: 10px;
+  width: 35%;
+  height: 76%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+}
+
+  
+.headRight{
+    
+    width: 40%;
+    height: 96%;
+    display: flex;
+    justify-content: flex-end;
+  }
+.socialMedia{
+    
+    width: 35%;
+    display: flex;
+  align-items: center;
+  justify-content:space-around;
+    
+    
+    margin-right: 80px;
+  }
+  .socialMedia i{
+    
+    /* padding: 8px; */
+    width: 28px;
+    height: 28px;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    
+   
+    font-size: 14px;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+  }
+  .socialMedia a{
+    text-decoration: none;
+    border: none;
+  }
+  .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    justify-content: center;
+    background-color: rgba(238, 248, 252, 0.829);
+  }
+  .info{
+    width: 75%;
+height: auto;
+padding-bottom: 100px;
+  }
+  .info p{
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+  }
+  .info h4{
+    line-height: 40px;
+    color: red;
+    font-size: 32px;
+    font-weight: normal;
+    font-family:"Helvetica Neue";
+    margin-bottom: 0;
+  }
+.info h5{
+  color: rgba(114, 9, 9, 0.76);
+  font-size: 18px;
+}
+.info hr{
+  float:left;
+}
+  
+  .info li{
+    line-height: 40px;
+    list-style: none;
+   
+  }
+  .info li i{
+    color: red;
+    margin: 10px;
+    font-size: 20px;
+  }
+  #common{
+    margin-top: 0;
+    
+  }
+
+.getinMain{
+  
+
+ width: 100%;
+ background-color: black;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    /* padding-bottom: 50px; */
+   
+}
+
+
+  .getin{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+   
+    
+    
+  }
+  .getin h6{
+    width: 23%;
+    color: red;
+    font-size: 11mm;
+    font-weight: normal;
+    text-align: center;
+  }
+  .border1 {
+  width: 3%;
+  
+  background-color: red;
+  height: 5px;
+  padding-left: 100px;
+  
+  
+  }
+  .border2 {
+    width: 3%;
+    
+    background-color: red;
+    height: 5px;
+    padding-left: 100px;
+    
+    
+    }
+
+    table{
+      width:78% ;
+      position:relative;
+      
+      align-self: center;
+    }
+
+table td{
+
+  height: 50px;
+}
+
+#adinfo{
+  height: 200px;
+}
+#adinfo input{
+  width: 98%;
+}
+td input{
+  border: none;
+  background-color: rgba(205, 235, 247, 0.932);
+  width: 96%;
+  height: 100%;
+  font-size: 15px;
+  padding-left: 20px;
+  border-radius: 5px;
+  
+}
+ button{
+   border: none;
+   width: 30%;
+   color: white;
+   border-radius: 5px;
+   font-size: 20px;
+   background-color: red;
+position: relative;
+
+  /* height: 40px; */
+  
+  
+  
+}
+.contact{
+  
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
+.contact i{
+  padding: 8px;
+  margin: 20px;
+    border-radius: 20px;
+    background-color: red;
+}
+.footer{
+  background-color: #012663;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+ 
+  height: 400px;
+}
+.image1{
+ width: 55%;
+ height: 65px;
+ display: flex;
+justify-content: center;
+ 
+
+}
+.image1 img{
+  width: 85%;
+  height: 85%;
+  
+}
+.image2{
+  width: 90%;
+  height: 250px;
+  
+  padding-top: 30px;
+  
+}
+#silderr{
+  width: 100%;
+  height: 80%;
+  position: relative;
+  
+  
+}
+#box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+#box img{
+
+  width: 97%;
+  height: 90%;
+}
+.footLeft{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.footLeft, .footRight{
+  width: 35%;
+  /* border: 1px solid rgb(47, 0, 255); */
+  height: 90%;
+
+  
+  padding-top: 40px;
+}
+.footMiddle{
+  padding-top: 40px;
+  width: 20%;
+  /* border: 1px solid rgb(0, 255, 42); */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.footMiddle a{
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+}
+
+
+/* contact-us page styles */
+.contact{
+  width: 100%;
+
+}
+.next{
+  border: 1px solid black;
+}
+.copyright{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(80, 70, 70);
+  display: flex;
+  justify-content: center;
+}
+
+
+.navlis {
+  float: left;
+  overflow: hidden;
+}
+
+.navlis .dropbtn1, .dropbtn2 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .navlist:hover .dropbtn1, .dropbtn2 {
+  background-color: red;
+}
+
+.dropdown-content {
+  
+  width: 90%;
+  display: none;
+  position: absolute;
+  margin-top:0;
+  background-color: #f9f9f9;
+ border-radius: 10px;
+  left: 5%;
+  box-shadow: 8px 16px 26px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+}
+
+.navlis:hover .dropdown-content {
+  display: block;
+}
+.navlis:focus .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  
+  width: 99.9%;
+  padding: 2px;
+ 
+  background-color: rgba(204, 204, 204, 0.664);
+  height: 200px;
+  border-radius: 10px;
+}
+.column2 {
+  float: left;
+  
+  width: 99.9%;
+  padding: 2px;
+  
+  /* background-color: #ccc; */
+  height: 396px;
+  border-radius: 10px;
+}
+.column3 {
+  float: left;
+  
+  width: 99.9%;
+  padding: 2px;
+  
+  /* background-color: #ccc; */
+  height: 140px;
+  border-radius: 10px;
+}
+.column4 {
+  float: left;
+  
+  width: 99.9%;
+  padding: 2px;
+  
+  /* background-color: #ccc; */
+  height: 200px;
+  border-radius: 10px;
+}
+
+.column1 a, .column2 a, .column3 a, .column4 a {
+  float: none;
+  color: black;
+  padding: 20px;
+  margin: auto;
+  padding-left: 20px;
+  text-decoration: none;
+
+  width: 99%;
+  display: block;
+  text-align: left;
+}
+
+.column1 a:hover, .column2 a:hover, .column3 a:hover, .column4 a:hover {
+  background-color: #ddd;
+  box-shadow: 8px 16px 26px 8px rgba(0,0,0,0.2);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
